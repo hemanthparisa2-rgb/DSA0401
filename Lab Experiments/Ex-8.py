@@ -1,5 +1,5 @@
+#Analyzing sales past month
 import pandas as pd
-
 # Sample DataFrame
 sales_data = pd.DataFrame({
     'Product_Name': ['Laptop', 'Mouse', 'Laptop', 'Keyboard',
