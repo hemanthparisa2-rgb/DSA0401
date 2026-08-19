@@ -1,3 +1,4 @@
+#plot to show sales dataset
 import matplotlib.pyplot as plt
 
 # Monthly data
