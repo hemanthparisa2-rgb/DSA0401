@@ -1,3 +1,4 @@
+#an A/B test to evaluate the effectiveness of two different website designs
 import pandas as pd
 from scipy.stats import ttest_ind
 
