@@ -1,3 +1,4 @@
+#effectiveness of a new drug
 import pandas as pd
 from scipy.stats import t
 
