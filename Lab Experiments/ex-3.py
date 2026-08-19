@@ -1,3 +1,4 @@
+#Houses more than four bedrooms
 import pandas as pd
 import numpy as np
 house_data = pd.read_csv(r"C:\Users\heman\Downloads\FDS\Exp-3 data.csv").to_numpy()
