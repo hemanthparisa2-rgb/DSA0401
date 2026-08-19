@@ -1,4 +1,4 @@
-# Take text input from the user
+#text analysis project
 text = input("Enter the text: ").lower()
 
 # Remove punctuation
