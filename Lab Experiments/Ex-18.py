@@ -1,5 +1,5 @@
+#social media platform.
 import pandas as pd
-
 # Input: Number of posts
 n = int(input("Enter the number of posts: "))
 
