@@ -1,3 +1,4 @@
+#customer reviews for a product.
 import pandas as pd
 
 # Input number of reviews
