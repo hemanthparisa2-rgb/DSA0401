@@ -1,5 +1,5 @@
+#line plot of the monthly temperature data.
 import matplotlib.pyplot as plt
-
 # Monthly Data
 months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
           "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
