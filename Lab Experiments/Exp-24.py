@@ -1,3 +1,4 @@
+#input the sample size, confidence level, and desired level of precision.
 import numpy as np
 
 # Read CSV file
