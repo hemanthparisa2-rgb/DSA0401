@@ -1,5 +1,5 @@
+#stock data variability
 import pandas as pd
-
 data = pd.read_csv(r"C:\Users\heman\Downloads\FDS\stock_data.csv")
 
 # Remove extra spaces from column names
