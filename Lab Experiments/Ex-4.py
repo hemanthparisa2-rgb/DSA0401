@@ -1,3 +1,4 @@
+#company sells in year
 import numpy as np
 import pandas as pd
 sales_data = pd.read_csv(r"C:\Users\heman\Downloads\FDS\Ex-4 data.csv")
