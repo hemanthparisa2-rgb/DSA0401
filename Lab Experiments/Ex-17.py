@@ -1,5 +1,5 @@
+#frequency distribution of the ages of the customers
 import pandas as pd
-
 # Create DataFrame
 data = {
     "Customer": ["A", "B", "C", "D", "E", "F", "G"],
