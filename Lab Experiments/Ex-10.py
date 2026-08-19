@@ -1,4 +1,4 @@
-#plot for sales of product
+#plot Monthly sales
 import matplotlib.pyplot as plt
 # Monthly sales data
 months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
