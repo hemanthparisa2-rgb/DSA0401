@@ -1,3 +1,4 @@
+#effectiveness of a new treatment for a specific disease
 import pandas as pd
 import matplotlib.pyplot as plt
 from scipy.stats import ttest_ind
