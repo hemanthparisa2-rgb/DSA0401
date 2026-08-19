@@ -1,5 +1,5 @@
+#Customer purchase
 import numpy as np
-
 # Item prices and quantities
 prices = np.array([50, 100, 30])
 quantities = np.array([2, 1, 4])
