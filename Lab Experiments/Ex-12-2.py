@@ -1,13 +1,14 @@
 #scatter plot of the monthly rainfall data.
+import pandas as pd
 import matplotlib.pyplot as plt
-# Monthly Data
-months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
-          "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
-rainfall = [15, 20, 30, 45, 80, 120, 150, 140, 100, 60, 35, 20]
+data = pd.read_csv("rainfall.csv")
 
-# Scatter Plot
-plt.scatter(months, rainfall, color='red', s=80)
+months = data["Month"]
+rainfall = data["Rainfall"]
+
+plt.scatter(months, rainfall, s=80)
+
 plt.title("Monthly Rainfall")
 plt.xlabel("Months")
 plt.ylabel("Rainfall (mm)")
@@ -15,6 +16,5 @@ plt.grid(True)
 
 plt.show()
 
-# Program Execution
-print("Rainfall Data:", rainfall)
+print("Rainfall Data:", list(rainfall))
 print("Scatter Plot displayed successfully.")
