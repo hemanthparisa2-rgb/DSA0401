@@ -1,12 +1,13 @@
 #plot to show sales dataset
+import pandas as pd
 import matplotlib.pyplot as plt
 
-# Monthly data
-months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun"]
-sales = [120, 150, 180, 170, 210, 250]
+data = pd.read_csv("sales_dataset.csv")
 
-# Bar Plot
-plt.bar(months, sales, color='green')
+months = data["Month"]
+sales = data["Sales"]
+
+plt.bar(months, sales)
 
 plt.title("Monthly Sales Bar Chart")
 plt.xlabel("Months")
