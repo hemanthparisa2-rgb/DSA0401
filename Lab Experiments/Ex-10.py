@@ -1,19 +1,17 @@
 #plot Monthly sales
+import pandas as pd
 import matplotlib.pyplot as plt
-# Monthly sales data
-months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
-sales = [25000, 30000, 28000, 35000, 40000, 45000]
 
-# Create line plot
-plt.plot(months, sales, marker='o')
+data = pd.read_csv("monthly_sales.csv")
 
-# Add title and labels
+months = data["Month"]
+sales = data["Sales"]
+
+plt.plot(months, sales, marker="o")
+
 plt.title("Monthly Sales Data")
 plt.xlabel("Month")
 plt.ylabel("Sales")
 
-# Display grid
 plt.grid(True)
-
-# Show plot
 plt.show()
