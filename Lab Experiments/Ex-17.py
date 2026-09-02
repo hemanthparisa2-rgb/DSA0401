@@ -1,16 +1,9 @@
 #frequency distribution of the ages of the customers
 import pandas as pd
-# Create DataFrame
-data = {
-    "Customer": ["A", "B", "C", "D", "E", "F", "G"],
-    "Age": [25, 30, 25, 40, 30, 25, 35]
-}
 
-df = pd.DataFrame(data)
+df = pd.read_csv("customer_ages.csv")
 
-# Frequency distribution of ages
 frequency = df["Age"].value_counts().sort_index()
 
-# Display result
 print("Frequency Distribution of Customer Ages:")
 print(frequency)
